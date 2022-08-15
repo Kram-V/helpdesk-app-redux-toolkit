@@ -7,10 +7,7 @@ const getUsers = async (token) => {
     },
   };
 
-  const response = await axios.get(
-    "http://localhost:5000/api/users/allUsers",
-    config
-  );
+  const response = await axios.get("/api/users/allUsers", config);
 
   return response.data;
 };

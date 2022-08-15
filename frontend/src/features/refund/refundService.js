@@ -7,11 +7,7 @@ const createRefund = async (data, token) => {
     },
   };
 
-  const response = await axios.post(
-    "http://localhost:5000/api/refunds/create",
-    data,
-    config
-  );
+  const response = await axios.post("/api/refunds/create", data, config);
 
   return response.data;
 };
@@ -23,7 +19,7 @@ const getRefunds = async (token) => {
     },
   };
 
-  const response = await axios.get("http://localhost:5000/api/refunds", config);
+  const response = await axios.get("/api/refunds", config);
 
   return response.data;
 };
@@ -35,10 +31,7 @@ const getRefund = async (id, token) => {
     },
   };
 
-  const response = await axios.get(
-    `http://localhost:5000/api/refunds/${id}`,
-    config
-  );
+  const response = await axios.get(`/api/refunds/${id}`, config);
 
   return response.data;
 };
@@ -51,7 +44,7 @@ const closeRefund = async (id, token) => {
   };
 
   const response = await axios.put(
-    `http://localhost:5000/api/refunds/${id}`,
+    `/api/refunds/${id}`,
     { status: "refunded" },
     config
   );
