@@ -1,0 +1,65 @@
+.refunds-container {
+  background-color: #0ea5e9;
+  border-radius: 10px;
+  width: 1300px;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.refunds-text {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.table-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+
+.table-contents {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: flex-start;
+  margin-top: 10px;
+  padding: 10px 0;
+  border-bottom: 2px solid #fff;
+}
+
+.refunds-show-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.view-btn {
+  border: none;
+  padding: 3px 20px;
+  background-color: #0c4a6e;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.status-text-processing {
+  background-color: #6d28d9;
+  padding: 3px 7px;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.status-text-refunded {
+  background-color: #22c55e;
+  padding: 3px 7px;
+  border-radius: 15px;
+  color: #fff;
+}

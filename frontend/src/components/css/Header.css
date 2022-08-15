@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  border-bottom: 1px solid #fff;
+}
+
+.subheader-container-2 {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}

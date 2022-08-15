@@ -1,0 +1,41 @@
+.home-container {
+  text-align: center;
+  font-size: 2rem;
+  height: 80vh;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h1-header {
+  margin-bottom: 10px;
+}
+
+.sign-up-btn {
+  align-self: center;
+  padding: 7px 35px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0ea5e9;
+  padding: 10px 40px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.help-text {
+  color: #0ea5e9;
+}
+
+.username-text {
+  color: #0ea5e9;
+}
+
+.staff-account-container {
+  font-size: 20px;
+  margin-top: 10rem;
+}
