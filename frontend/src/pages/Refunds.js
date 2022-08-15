@@ -49,7 +49,7 @@ const Refunds = () => {
         <h3>Product</h3>
         <h3>Issue</h3>
         <h3>Status</h3>
-        <h3></h3>
+        <h3>Action</h3>
       </div>
 
       {allRefunds.length > 0 ? (
